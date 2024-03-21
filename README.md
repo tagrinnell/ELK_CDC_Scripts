@@ -12,7 +12,7 @@ On master Node, need to have the following settings configured: \
 `node.name: <name>          # Machine Specific` \
 `node.roles: [master, data] # unsure if this should be something else` \
 `transport.host: 0.0.0.0    # Uncomment on master to allow other nodes to connect` \
-`network.host: <IP>         # Exposes Elasticsearch on a port` \
+`network.host: <IP>         # Exposes Elasticsearch on a port` 
 
 Also perform as root: `sysctl -w vm.max_map_count` (All boxes)
 
